@@ -1,12 +1,18 @@
 import { TestBed, async } from '@angular/core/testing';
 import { RouterTestingModule } from '@angular/router/testing';
+import { AddLoanComponent } from './add-loan/add-loan.component';
 import { AppComponent } from './app.component';
+import { GetLoanComponent } from './get-loan/get-loan.component';
+import { RemoveLoanComponent } from './remove-loan/remove-loan.component';
 
 describe('AppComponent', () => {
   beforeEach(async(() => {
     TestBed.configureTestingModule({
       imports: [
-        RouterTestingModule
+        RouterTestingModule,
+        AddLoanComponent,
+        GetLoanComponent,
+        RemoveLoanComponent
       ],
       declarations: [
         AppComponent

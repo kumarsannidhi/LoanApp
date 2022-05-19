@@ -1,0 +1,54 @@
+<p>get-loan works!</p>
+
+<table border="1">
+
+
+
+    <tr>
+
+        <th>LOANId</th>
+
+        <th>CUSTOMER Name</th>
+
+
+
+        <th>LoanAmount</th>
+
+
+
+        <th>Date of Loan</th>
+
+        <th>Tenure</th>
+
+        <th>Rate of Interest</th>
+
+    </tr>
+    <tr *ngFor="let l of loan">
+
+
+
+        <td>{{l.id}}</td>
+
+
+
+        <td>{{l.name}}</td>
+
+
+
+        <td>{{l.la}}</td>
+
+
+
+        <td>{{l.dol}}</td>
+
+        <td>{{l.tenure}}</td>
+
+        <td>{{l.roi}}</td>
+
+
+
+    </tr>
+
+
+
+</table>
